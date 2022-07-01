@@ -4,28 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c570497c-af1d-4bf7-9722-7b08d853ad74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAssignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Exceptions/FileIsIncorrectException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Game/BasketballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Game/HandballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GameParametres/BasketballGameParametres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GameParametres/GameParametres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GameParametres/HandballGameParametres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Parser/BasketballParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Parser/HandballParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Parser/IParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Visitors/IVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Visitors/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/BasketballParserTest.java" afterDir="false" />
+    <list default="true" id="c570497c-af1d-4bf7-9722-7b08d853ad74" name="Changes" comment="Structure done">
+      <change afterPath="$PROJECT_DIR$/GamesInfoCSV/test1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apache-commons-lang.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/assertj-core-3.23.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.12.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Parser/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeAssignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GameParametres/BasketballGameParametres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GameParametres/BasketballGameParametres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GameParametres/HandballGameParametres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GameParametres/HandballGameParametres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Parser/BasketballParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Parser/BasketballParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BasketballParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BasketballParserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +41,35 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BIyxlzwGelZJXZZ2kpHjLcDECp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Code Assignment/CodeAssignment/lib/apache-commons-lang.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Parser" />
@@ -72,6 +77,29 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="main" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BasketballParserTest.testBasketballParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BasketballParserTest" />
+      <option name="METHOD_NAME" value="testBasketballParser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BasketballParserTest.testBasketballParser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,8 +110,16 @@
       <option name="presentableId" value="Default" />
       <updated>1656608146327</updated>
       <workItem from="1656608149118" duration="7244000" />
-      <workItem from="1656655329922" duration="9567000" />
+      <workItem from="1656655329922" duration="17673000" />
     </task>
+    <task id="LOCAL-00001" summary="Structure done">
+      <created>1656673630417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656673630417</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +128,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="8ae4d93b-a91f-4480-b504-07eac8be0686">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -99,5 +160,24 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8ae4d93b-a91f-4480-b504-07eac8be0686" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Structure done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structure done" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CodeAssignment$BasketballParserTest_testBasketballParser.ic" NAME="BasketballParserTest.testBasketballParser Coverage Results" MODIFIED="1656682469003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
 </project>
