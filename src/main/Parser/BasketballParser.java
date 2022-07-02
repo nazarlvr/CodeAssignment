@@ -51,8 +51,7 @@ public class BasketballParser implements IParser{
         BasketballGame basketballGame = new BasketballGame();
         try {
             basketballGame.setBasketballGameParametresHashSet(this.Parse(name));
-        }catch (FileIsIncorrectException e)
-        {
+        }catch (FileIsIncorrectException e) {
             System.out.println(e.getMessage());
         }
         return basketballGame;
