@@ -20,4 +20,8 @@ public class HandballGame extends Game{
     public void setHandballGameParametresHashSet(HashSet<HandballGameParametres> handballGameParametresHashSet) {
         this.handballGameParametresHashSet = handballGameParametresHashSet;
     }
+
+    public HashSet<HandballGameParametres> getHandballGameParametresHashSet() {
+        return handballGameParametresHashSet;
+    }
 }
