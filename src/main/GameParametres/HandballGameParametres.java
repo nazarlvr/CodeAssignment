@@ -6,8 +6,8 @@ import org.apache.commons.lang.math.NumberUtils;
 public class HandballGameParametres extends GameParametres{
 
 
-    private int goalsMade;
-    private int goalsReceived;
+    private final int goalsMade;
+    private final int goalsReceived;
 
     public HandballGameParametres(String[] playerInfo) throws FileIsIncorrectException {
         this.setPlayerName(playerInfo[0]);
@@ -28,15 +28,10 @@ public class HandballGameParametres extends GameParametres{
         return goalsMade;
     }
 
-    public void setGoalsMade(int goalsMade) {
-        this.goalsMade = goalsMade;
-    }
+
 
     public int getGoalsReceived() {
         return goalsReceived;
     }
 
-    public void setGoalsReceived(int goalsReceived) {
-        this.goalsReceived = goalsReceived;
-    }
 }

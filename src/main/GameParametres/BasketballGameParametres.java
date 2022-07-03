@@ -2,9 +2,9 @@ package main.GameParametres;
 import main.Exceptions.FileIsIncorrectException;
 import org.apache.commons.lang.math.NumberUtils;
 public class BasketballGameParametres extends GameParametres{
-    private int scoredPoints;
-    private int rebounds;
-    private int assists;
+    private final int scoredPoints;
+    private final int rebounds;
+    private final int assists;
 
     public BasketballGameParametres(String[] playerInfo) throws FileIsIncorrectException {
         this.setPlayerName(playerInfo[0]);
@@ -26,23 +26,14 @@ public class BasketballGameParametres extends GameParametres{
         return scoredPoints;
     }
 
-    public void setScoredPoints(int scoredPoints) {
-        this.scoredPoints = scoredPoints;
-    }
 
     public int getRebounds() {
         return rebounds;
     }
 
-    public void setRebounds(int rebounds) {
-        this.rebounds = rebounds;
-    }
 
     public int getAssists() {
         return assists;
     }
 
-    public void setAssists(int assists) {
-        this.assists = assists;
-    }
 }

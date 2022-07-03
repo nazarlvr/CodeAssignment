@@ -4,10 +4,8 @@ import main.Exceptions.FileIsIncorrectException;
 import main.Game.Game;
 import main.Game.HandballGame;
 import main.GameParametres.HandballGameParametres;
-import main.GameParametres.HandballGameParametres;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashSet;
