@@ -12,9 +12,10 @@ public class HandballGame extends Game{
 
 
     @Override
-    void countRate(HashMap<String, Integer> rateByNickname, IVisitor visitor)
+    public HashMap<String, Integer> countRate(HashMap<String, Integer> rateByNickname, IVisitor visitor)
     {
-        visitor.countHandballRate(rateByNickname,this);
+        HashMap<String, Integer> newMap = visitor.countHandballRate(rateByNickname,this);
+        return newMap;
     }
 
     public void setHandballGameParametresHashSet(HashSet<HandballGameParametres> handballGameParametresHashSet) {

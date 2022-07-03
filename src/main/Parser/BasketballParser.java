@@ -15,7 +15,7 @@ public class BasketballParser implements IParser{
     public HashSet<BasketballGameParametres> Parse(String name) throws FileIsIncorrectException  {
         HashSet<BasketballGameParametres> basketballGameParametresHashSet = new HashSet<>();
         try {
-            if (FileManager.getFileExtension(new File(FileManager.pathtocsv + name)).equals("csv")) {
+
                 BufferedReader csvReader = new BufferedReader(new FileReader(FileManager.pathtocsv + name));
                 while (true) {
 
@@ -36,8 +36,6 @@ public class BasketballParser implements IParser{
                     }
                 }
                 csvReader.close();
-            }
-            else throw new FileIsIncorrectException("File Extension is not \".csv\", program cant find MVP!");
         } catch(IOException fe) {
             System.out.println(fe.getMessage());
             return null;

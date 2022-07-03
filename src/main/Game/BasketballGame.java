@@ -10,8 +10,9 @@ import java.util.Map;
 public class BasketballGame extends Game{
 private HashSet<BasketballGameParametres> basketballGameParametresHashSet;
     @Override
-    void countRate(HashMap<String, Integer> rateByNickname, IVisitor visitor) {
-        visitor.countBasketballRate(rateByNickname, this);
+    public HashMap<String, Integer> countRate(HashMap<String, Integer> rateByNickname, IVisitor visitor) {
+        HashMap<String, Integer> newMap = visitor.countBasketballRate(rateByNickname, this);
+        return newMap;
     }
 
     public void setBasketballGameParametresHashSet(HashSet<BasketballGameParametres> basketballGameParametresHashSet) {

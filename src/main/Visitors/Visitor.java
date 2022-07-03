@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class Visitor implements IVisitor{
     @Override
-    public void countBasketballRate(HashMap<String, Integer> rateByNickname, BasketballGame game) {
+    public HashMap<String, Integer> countBasketballRate(HashMap<String, Integer> rateByNickname, BasketballGame game) {
         HashSet<BasketballGameParametres> bgp = game.getBasketballGameParametresHashSet();
         HashMap<String, Integer> teamsResult = new HashMap<>();
         for (BasketballGameParametres baskGameParam : bgp){
@@ -28,6 +28,9 @@ public class Visitor implements IVisitor{
                 playerRate += rateByNickname.get(baskGameParam.getNickName());
                 rateByNickname.put(baskGameParam.getNickName(), playerRate);
             }
+            else{
+                rateByNickname.put(baskGameParam.getNickName(), playerRate);
+            }
         }
         String teamWinner = ""; int max = -1;
         for(String key : teamsResult.keySet()){
@@ -41,11 +44,13 @@ public class Visitor implements IVisitor{
                 int rate = rateByNickname.get(baskGameParam.getNickName());
                 rateByNickname.put(baskGameParam.getNickName(), rate + 10);
             }
+
         }
+        return rateByNickname;
     }
 
     @Override
-    public void countHandballRate(HashMap<String, Integer> rateByNickname, HandballGame game) {
+    public HashMap<String, Integer> countHandballRate(HashMap<String, Integer> rateByNickname, HandballGame game) {
         HashSet<HandballGameParametres> hgp = game.getHandballGameParametresHashSet();
         HashMap<String, Integer> teamsResult = new HashMap<>();
         for (HandballGameParametres handGameParam : hgp){
@@ -61,6 +66,9 @@ public class Visitor implements IVisitor{
                 playerRate += rateByNickname.get(handGameParam.getNickName());
                 rateByNickname.put(handGameParam.getNickName(), playerRate);
             }
+            else{
+                rateByNickname.put(handGameParam.getNickName(), playerRate);
+            }
         }
         String teamWinner = ""; int max = -1;
         for(String key : teamsResult.keySet()){
@@ -71,9 +79,10 @@ public class Visitor implements IVisitor{
         }
         for (HandballGameParametres handGameParam : hgp){
             if (handGameParam.getTeamName().equals(teamWinner)){
-                int rate = rateByNickname.get(handGameParam.getNickName());
+                Integer rate = rateByNickname.get(handGameParam.getNickName());
                 rateByNickname.put(handGameParam.getNickName(), rate + 10);
             }
         }
+        return rateByNickname;
     }
 }

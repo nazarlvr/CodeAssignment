@@ -6,6 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public abstract class Game {
-    abstract void countRate(HashMap<String, Integer> rateByNickname, IVisitor visitor);
+    abstract HashMap<String, Integer> countRate(HashMap<String, Integer> rateByNickname, IVisitor visitor);
 
 }

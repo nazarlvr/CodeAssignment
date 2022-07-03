@@ -10,7 +10,7 @@ import java.util.HashSet;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class HandballParserTest {
-    HandballParser bp = new HandballParser();
+    HandballParser hp = new HandballParser();
     HashSet<HandballGameParametres> handballGameParametresHashSet;
 
     @Test
@@ -19,7 +19,7 @@ public class HandballParserTest {
         {
             try {
                 HashSet<String> teamNames = new HashSet<>();
-                handballGameParametresHashSet = bp.Parse("test2.csv");
+                handballGameParametresHashSet = hp.Parse("test2.csv");
                 assertThat(handballGameParametresHashSet).isNotEmpty();
                 for (HandballGameParametres hgp : handballGameParametresHashSet) {
                     assertThat(hgp.getGoalsMade()).isGreaterThanOrEqualTo(0);
