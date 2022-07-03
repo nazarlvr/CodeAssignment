@@ -10,6 +10,7 @@ import main.Visitors.Visitor;
 
 import java.io.*;
 import java.util.HashMap;
+import java.util.Locale;
 
 public class Tournament {
     private HashMap<String, Integer> rate;
@@ -42,19 +43,20 @@ public class Tournament {
                         BufferedReader csvReader = new BufferedReader(new FileReader(path));
                         try {
                             String row = csvReader.readLine();
-                            if (row.equals("BASKETBALL")) {
+
+                           if (row.equals("BASKETBALL")) {
                                 BasketballParser bp = new BasketballParser();
                                 BasketballGame bg = new BasketballGame();
                                 bg.setBasketballGameParametresHashSet(bp.Parse("Data\\" + entry.getName()));
                                 this.setRate(bg.countRate(this.getRate(), visitor));
-                            } else if (row.equals("HANDBALL")) {
+                           } else if (row.equals("HANDBALL")) {
                                 HandballParser hp = new HandballParser();
                                 HandballGame hg = new HandballGame();
                                 hg.setHandballGameParametresHashSet(hp.Parse("Data\\" + entry.getName()));
                                 this.setRate(hg.countRate(this.getRate(), visitor));
-                            }else {
+                           }else {
                                 throw new FileIsIncorrectException("Wrong format of csv file, please check sport's name!");
-                            }
+                           }
                         } catch (IOException e) {
                             throw new RuntimeException(e);
                         }

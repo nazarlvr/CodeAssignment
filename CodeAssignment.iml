@@ -55,7 +55,16 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/javafx-ui-common.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/java-reflection-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jsr305-3.0.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
