@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c570497c-af1d-4bf7-9722-7b08d853ad74" name="Changes" comment="Final Release!!!">
+    <list default="true" id="c570497c-af1d-4bf7-9722-7b08d853ad74" name="Changes" comment="Final Release!!!(Bugs fixed)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeAssignment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamesInfoCSV/Data/test1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamesInfoCSV/Data/test2.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,28 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Code Assignment/CodeAssignment/GamesInfoCSV/Data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code Assignment/CodeAssignment/GamesInfoCSV/Data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.main" />
@@ -169,7 +168,8 @@
       <option name="presentableId" value="Default" />
       <updated>1656608146327</updated>
       <workItem from="1656608149118" duration="7244000" />
-      <workItem from="1656655329922" duration="44644000" />
+      <workItem from="1656655329922" duration="45287000" />
+      <workItem from="1657123127361" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="Structure done">
       <created>1656673630417</created>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656854106732</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final Release!!!(Bugs fixed)">
+      <created>1656855984202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656855984202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +274,8 @@
     <MESSAGE value="Visitor method finale release. Tournament class added." />
     <MESSAGE value="Main released, bugs solved, fix some methods" />
     <MESSAGE value="Final Release!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Release!!!" />
+    <MESSAGE value="Final Release!!!(Bugs fixed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Release!!!(Bugs fixed)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
